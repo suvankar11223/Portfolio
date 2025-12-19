@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -14,10 +15,11 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
-  >
+  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+    <motion.div
+      variants={fadeIn("", "spring", index * 0.5, 0.75)}
+      className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    >
     <p className='text-white font-black text-[48px]'>"</p>
 
     <div className='mt-1'>
@@ -41,6 +43,7 @@ const FeedbackCard = ({
       </div>
     </div>
   </motion.div>
+ </Tilt>
 );
 
 const Feedbacks = () => {
