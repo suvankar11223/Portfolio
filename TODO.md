@@ -1,0 +1,10 @@
+- [x] Remove testimonials array from src/constants/index.js
+- [x] Remove testimonials from export in src/constants/index.js
+- [x] Remove Feedbacks component from src/App.jsx
+- [x] Delete src/components/Feedbacks.jsx file
+- [x] Update README.md to remove testimonials mention
+- [x] Add testimonials array back to src/constants/index.js
+- [x] Add testimonials back to export in src/constants/index.js
+- [x] Recreate src/components/Feedbacks.jsx file
+- [x] Add Feedbacks component back to src/App.jsx
+- [x] Update README.md to add testimonials mention back
