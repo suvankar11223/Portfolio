@@ -1,4 +1,4 @@
-                                                                          # 🚀 3D Developer Portfolio
+# 🚀 3D Developer Portfolio
 
 **Transform your personal brand into an immersive web experience**
 
